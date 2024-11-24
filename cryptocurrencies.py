@@ -3,6 +3,8 @@ from tkinter import ttk
 from tkinter import messagebox as mb
 import requests
 
+name=None
+
 def update_cryptocur_label(event):
     # Получаем полное название криптовалюты из словаря и обновляем метку
     code = combobox.get()
@@ -14,13 +16,14 @@ def exchange():
 
     if code:
         try:
-            response = requests.get('https://open.er-api.com/v6/latest/USD')
+            response = requests.get(f"https://api.coingecko.com/api/v3/simple/price?ids={name}&vs_currencies=usd")
+            #https://api.coingecko.com/api/v3/coins/list
             response.raise_for_status()
 
             data = response.json()
 
-            if code in data['rates']:
-                exchange_rate = data['rates'][code]
+            if name in data['ids']:
+                exchange_rate = data['ids'][code]
                 currency_name = currencies[code] # currencies.get(code, code)
                 mb.showinfo("Курс обмена", f"Курс к доллару: {exchange_rate:.1f} {currency_name} за 1 доллар")
             else:
