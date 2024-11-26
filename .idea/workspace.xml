@@ -5,13 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="708135b2-fb13-4e8d-b8ca-23dc99a462ec" name="Changes" comment="Создано главное окно программы">
-      <change afterPath="$PROJECT_DIR$/.idea/ExchangeRates.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Currencies.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/ExchangeRates.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ExchangeRates.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Obmen-2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Obmen-2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cryptocurrencies.py" beforeDir="false" afterPath="$PROJECT_DIR$/cryptocurrencies.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,11 +24,36 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "history": [
+    {
+      "searchQuery": "cryptocurrensies",
+      "state": "OPEN",
+      "assignee": "Avir5"
+    }
+  ],
+  "lastFilter": {
+    "searchQuery": "cryptocurrensies",
+    "state": "OPEN",
+    "assignee": "Avir5"
+  }
 }]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Avir5/ExchangeRates.git",
+    "accountId": "53c10801-e45c-4b8f-856f-b3d9dcd16f9a"
+  }
+}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2p3clN4XDkgb7REbwWIAho5gL54" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -40,11 +63,14 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Python.Currencies.executor": "Run",
+    "Python.Obmen-2.executor": "Run",
     "Python.Obmen.executor": "Run",
+    "Python.cryptocurrencies.executor": "Run",
     "Python.main3_vibor.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/PycharmProjects/ExcangeRate/main3_vibor.py"
+    "last_opened_file_path": "C:/PycharmProjects/ExchangeRates",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
   <component name="SharedIndexes">
@@ -75,11 +101,38 @@
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="master" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
