@@ -42,7 +42,8 @@ currencies = {
 "TRX": "TRON",
 "XLM": "Stellar",
 "pDOTn": "Polkadot",
-"LINK": "Chainlink"
+"LINK": "Chainlink",
+"BNB": "Binance Coin"
 }
 
 # Создание графического интерфейса
